@@ -5,10 +5,10 @@ from tweepy import API
 from tweepy import Cursor
 from tweepy.parsers import JSONParser
 
-access_token = "184258963-sCFzbBf8zSx3e5WM0iUdxgPUoaJlSVU0YtMscA0N"
-access_token_secret = "xhgUuKI0LJ3j203agTG1V3hHiLcTbF6tLJVw2JnrDosWJ"
-consumer_key = "oV8DxAHsDjh7BjiELD9SLO8Id"
-consumer_secret = "rFj8vA6KaQt3zuYrdzV93lrYUmvqH2Lbx4HNCs8YHn536caQtg"
+access_token = "YOUR ACCESS TOKEN"
+access_token_secret = "YOUR ACCESS TOKEN SECRET"
+consumer_key = "YOUR CONSUMER KEY"
+consumer_secret = "YOUR CONSUMER SECRET"
 
 if __name__ == '__main__':
     auth = OAuthHandler(consumer_key, consumer_secret)
