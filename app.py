@@ -14,7 +14,7 @@ if __name__ == '__main__':
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = API(auth)
-    uid = 'jokowi'
+    uid = 'user to search'
     query = 'to:' + uid
     out = api.search(q=query, parser=JSONParser(),rpp=10,count=10,tweet_mode="extended")
     print(out)
